@@ -2,4 +2,3 @@
 Авторские права не нарушены...
 
 experiment with amend
-experiment with amend
