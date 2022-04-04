@@ -1,5 +1,7 @@
 # Welcome to GitHub Desktop!
 Авторские права не нарушены...
+Status of Last Deployment:<br>
+<img src="https://github.com/FNikols/hexlet-git/My-GitHubAction-Basics/badge.svg?branch=main"><br>
 ### Привет-привет! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 <a href="https://vk.com/your_profile">
   <img align="left" alt="VKontakte" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vk.svg" />
