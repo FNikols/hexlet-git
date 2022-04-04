@@ -2,7 +2,7 @@
 
 name: My-GitHubAction-Basics
 env:
-  APPLICATION_NAME: "MyProg"
+  APPLICATION_NAME : "MyProg"
   DEPLOY_PACKAGE_NAME    : "prog-deploy-ver-${{ github.sha }}"
 # Controls when the workflow will run
 on:
