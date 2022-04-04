@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Одиночная команда
-        run: ip addr show
+        run: exit 1
 
   deploy:
     # The type of runner that the job will run on
