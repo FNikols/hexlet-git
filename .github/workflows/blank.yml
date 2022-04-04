@@ -2,8 +2,8 @@
 
 name: My-GitHubAction-Basics
 env:
-  APPLICATION_NAME : "MyProg"
-  DEPLOY_PACKAGE_NAME    : "prog-deploy-ver-${{ github.sha }}"
+  APPLICATION_NAME: "MyProg"
+  DEPLOY_PACKAGE_NAME: "prog-deploy-ver-${{ github.sha }}"
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -34,13 +34,13 @@ jobs:
       - name: Многокомандный скрипт 1
         run: |
           echo "+++++++++++++++++++++"
-          echo "Applcation Name: ${{ env.APPLIAPPLICATION_NAME }}"
+          echo "Applcation Name: ${{ env.APPLICATION_NAME }}"
 
   deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     # Этот deploy запускается, только если build успешен
-    needs:  build
+    #needs:  build
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
