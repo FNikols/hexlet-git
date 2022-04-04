@@ -39,8 +39,14 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Multi-line script
         run: |
-          echo Message from deploy; cd ~ ; pwd; ip a
+          echo Message from deploy
+          cd ~ 
+          pwd
+          ip a
           echo "====================="
           cat /etc/*release; free
-
+          echo "====================="
+          df -h; echo $?
+          echo "====================="
+          mount | column -t
 
