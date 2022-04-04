@@ -26,7 +26,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Git clone my repo
-        uses: actions/checkout@v1
+        uses: actions/checkout@v1  # клонирование моего репозитория в ВМ
 
       # Runs a single command using the runners shell
       - name: Одиночная команда
@@ -35,7 +35,8 @@ jobs:
       - name: Многокомандный скрипт 1
         run: |
           echo "+++++++++++++++++++++"
-          echo "Applcation Name: ${{ env.APPLICATION_NAME }}"
+          aws --version
+          zip ---version
 
   deploy:
     # The type of runner that the job will run on
